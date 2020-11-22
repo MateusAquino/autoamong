@@ -40,6 +40,8 @@
             this.clientState = new System.Windows.Forms.Label();
             this.matchState = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.voteBtn = new System.Windows.Forms.Button();
+            this.gameBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.playersTable)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,11 +170,33 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(181, 82);
+            this.label2.Location = new System.Drawing.Point(174, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 15);
+            this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 11;
-            this.label2.Text = "9.22";
+            this.label2.Text = "10.22";
+            // 
+            // voteBtn
+            // 
+            this.voteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.voteBtn.Location = new System.Drawing.Point(221, 399);
+            this.voteBtn.Name = "voteBtn";
+            this.voteBtn.Size = new System.Drawing.Size(100, 23);
+            this.voteBtn.TabIndex = 12;
+            this.voteBtn.Text = "Forçar Votação";
+            this.voteBtn.UseVisualStyleBackColor = true;
+            this.voteBtn.Click += new System.EventHandler(this.voteBtn_Click);
+            // 
+            // gameBtn
+            // 
+            this.gameBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gameBtn.Location = new System.Drawing.Point(327, 399);
+            this.gameBtn.Name = "gameBtn";
+            this.gameBtn.Size = new System.Drawing.Size(100, 23);
+            this.gameBtn.TabIndex = 13;
+            this.gameBtn.Text = "Forçar Jogo";
+            this.gameBtn.UseVisualStyleBackColor = true;
+            this.gameBtn.Click += new System.EventHandler(this.gameBtn_Click);
             // 
             // Form2
             // 
@@ -181,6 +205,8 @@
             this.BackgroundImage = global::AutoAmong.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.gameBtn);
+            this.Controls.Add(this.voteBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.matchState);
             this.Controls.Add(this.clientState);
@@ -214,5 +240,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewComboBoxColumn Discord;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiscordID;
+        private System.Windows.Forms.Button voteBtn;
+        private System.Windows.Forms.Button gameBtn;
     }
 }

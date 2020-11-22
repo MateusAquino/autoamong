@@ -261,5 +261,15 @@ namespace AutoAmong
             Form2.exitOnClose = false;
             Form2.form.Close();
         }
+
+        private void voteBtn_Click(object sender, EventArgs e)
+        {
+            conn.inGame(false);
+        }
+
+        private void gameBtn_Click(object sender, EventArgs e)
+        {
+            conn.inGame(true);
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace AutoAmong
 {
     public class Connection
     {
-        private static string version = "3";
+        private static string version = "4";
         private const string ip = "191.235.99.102";
         private const int port = 3000;
         private string hash;
