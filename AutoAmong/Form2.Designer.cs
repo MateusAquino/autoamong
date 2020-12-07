@@ -172,9 +172,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(174, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 15);
+            this.label2.Size = new System.Drawing.Size(35, 15);
             this.label2.TabIndex = 11;
-            this.label2.Text = "10.22";
+            this.label2.Text = "12.5";
             // 
             // voteBtn
             // 
