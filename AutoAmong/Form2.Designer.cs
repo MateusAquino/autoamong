@@ -174,7 +174,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 15);
             this.label2.TabIndex = 11;
-            this.label2.Text = "12.5";
+            this.label2.Text = "12.9";
             // 
             // voteBtn
             // 

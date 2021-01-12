@@ -11,8 +11,8 @@ namespace AutoAmong
     public class Connection
     {
         private static string version = "4";
-        private const string ip = "191.235.99.102";
-        private const int port = 3000;
+        private const string ip = "botjs.02.fantasy.ovh";
+        private const int port = 10259;
         private string hash;
 
         public Connection(string hash) {
