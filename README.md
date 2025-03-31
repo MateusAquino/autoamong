@@ -17,7 +17,7 @@ Para fazer o setup após configurar o webserver do [bot](https://github.com/iIlu
 
 Abaixo alguns links úteis para utilizar o projeto ou criar o seu do zero.<br>
 **Discord Template:** [Link](https://discord.new/RkxRcr8DycFg)<br>
-**Discord Bot Template:** [Repositorio](https://github.com/iIlusion)
+**Discord Bot Template:** [Repositorio](https://github.com/iIlusion/Among-Bot-Discord)
 
 ## <b>Dúvidas?</b>
 Tem alguma dúvida em relação ao **projeto** ou alguma duvida pertinente envolvendo o **Discord.JS**?<br>
